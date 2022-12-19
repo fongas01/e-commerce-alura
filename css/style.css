@@ -1,0 +1,64 @@
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sacola {
+  margin-top: 15px;
+  display: flex;
+}
+
+.sacola p {
+  margin-top: 15px;
+}
+
+.img-sacola {
+  width: 30px;
+  height: 40px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: right;
+}
+
+.list {
+  margin-left: 20px;
+}
+
+#ajuda {
+  margin-right: 100px;
+}
+/*-- fim cabeçalho --*/
+
+/* FOOTER */
+.rodape {
+  background-image: url("/img/fundo-rodape.png");
+  display: flex;
+  padding: 15px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-rodape {
+  margin-left: 70px;
+}
+
+.midia {
+  padding: 10px 0;
+  margin-right: 70px;
+}
+/*-- fim footer --*/
