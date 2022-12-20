@@ -1,10 +1,8 @@
 * {
+  border: border-box;
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -23,6 +21,7 @@ body {
 
 .sacola p {
   margin-top: 15px;
+  margin-right: 5px;
 }
 
 .img-sacola {
@@ -33,6 +32,7 @@ body {
 .menu-list {
   display: flex;
   justify-content: right;
+  margin-bottom: 8px;
 }
 
 .list {
@@ -42,7 +42,105 @@ body {
 #ajuda {
   margin-right: 100px;
 }
-/*-- fim cabeçalho --*/
+
+/* PRINCIPAL */
+.container {
+  margin: 0 100px;
+  display: flex;
+}
+
+#busca {
+  background-color: rgb(228, 227, 227);
+  padding: 10px;
+  width: 195px;
+}
+
+#busca input {
+  border-radius: 25px;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.bg-depoimentos {
+  background-color: rgb(228, 227, 227);
+  height: 52vh;
+}
+
+.departamentos {
+  background-color: #fefefe;
+  margin-top: 10px;
+}
+
+.dep-list {
+  background-color: rgb(228, 227, 227);
+}
+
+.departamentos ul li {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.banner img {
+  width: 840px;
+  margin-left: 10px;
+}
+
+/* NOVIDADES */
+h4 {
+  font-size: 15px;
+  padding: 10px 10px 10px 0px;
+}
+
+.container2 {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+
+#card {
+  padding-top: 40px;
+}
+
+.novidades {
+  background-color: rgb(250, 96, 127);
+}
+
+/* GRID */
+.novidades,
+.mais-vendidos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  margin: 3px 3px 7px 1px;
+  padding: 1px 10px 40px 10px;
+}
+
+.card p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.card img {
+  width: 165px;
+  height: 165px;
+}
+
+/* MAIS VENDIDOS */
+.mais-vendidos {
+  background-color: rgb(96, 96, 250);
+}
+
+button {
+  height: 30px;
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: black;
+  color: #fefefe;
+}
 
 /* FOOTER */
 .rodape {
